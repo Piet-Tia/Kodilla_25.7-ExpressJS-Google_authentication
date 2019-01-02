@@ -1,0 +1,9 @@
+doctype html
+html
+    head
+        title="Fake Google auth "
+    body
+        p Please enter your fake Google credetials to fake log in.
+        input.google_auth_input#google_id_input(placeholder="Login")
+        input.google_auth_input#google_pass_input(placeholder="Password")
+        a(href="/auth/logged_in"): button.google_auth_button#google_auth_submit(type="submit") Submit
